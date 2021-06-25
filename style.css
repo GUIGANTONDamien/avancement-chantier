@@ -1,0 +1,181 @@
+body {
+  background-color: rgb(36, 44, 51);
+  font-family: "Arial", sans-serif;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+#menu {
+  position: right;
+  width: 600px;
+  height: 40px;
+  padding-left: 170px;
+  justify-content: space-around;
+}
+
+#cadre {
+  height: 130px;
+  background-image: url("assets/motif.jpg");
+  background-repeat: repeat-x;
+}
+
+ul {
+  background: #000000;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: goldenrod;
+}
+
+#welcome {
+  height: 400px;
+  background-image: url("assets/Nashvhille_Parthenon.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+  color: rgb(254, 254, 254);
+  text-shadow: 3px 3px #333;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(240, 67, 36);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#heroes .flex-container div {
+  flex: 1 1 0;
+}
+
+#RoyalFamily .flex-container div {
+  flex: 1 1 0;
+}
+
+.roi {
+  height: 200px;
+}
+.Princesse {
+  height: 200px;
+}
+
+.lanceurdedisque {
+  height: 200px;
+}
+
+.lutte {
+  height: 200px;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+label {
+  line-height: 2;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background: #97141a;
+  color: rgb(252, 248, 248);
+  border: none;
+  padding: 5px 10px;
+}
+
+.textname {
+  opacity: 0.5;
+}
+
+.logo {
+  border-radius: 650px;
+  position: absolute;
+  height: 90px;
+  top: 195px;
+  left: 40px;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  height: 25px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #5a1717;
+  color: white;
+}
+
+div.bordure {
+  border-bottom: 5px solid #7e040a;
+}
+
+#frame_chantier {
+
+  display: flex;
+  justify-content: flex-start;
+
+  border: 3px solid #444;
+}
+
+#frame_projet {
+
+  display: flex;
+  justify-content: flex-start;
+
+  border: 3px solid #444;
+}
+

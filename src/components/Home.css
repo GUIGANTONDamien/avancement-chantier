@@ -1,0 +1,80 @@
+.logo_entreprise {
+  width: 70%;
+}
+
+.logo_bateau {
+  max-width: 100%;
+}
+
+.up-windows {
+  display: flex;
+  align-items: center;
+}
+
+.down-windows {
+  border: 1px solid white;
+}
+
+.logo_deposer {
+  width: 58%;
+  max-width: 100%;
+  margin: 10%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.container-depot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-left {
+  color: white;
+}
+
+/* **** Progress bar **** */
+
+.container-down-windows-uptown {
+  display: flex;
+}
+
+.down-windows-left {
+  display: flex;
+  width: 50%;
+}
+
+.down-windows-right {
+  display: flex;
+  width: 50%;
+  margin: 1%;
+}
+
+.down-windows-right-titre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-bar {
+  display: flex;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.list-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.list-right-h1 {
+  margin-right: 10px;
+}

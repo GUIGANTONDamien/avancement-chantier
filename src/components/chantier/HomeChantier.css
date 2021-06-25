@@ -1,0 +1,45 @@
+.container-global-chantier {
+  margin: 1%;
+  width: 50%;
+}
+
+.container-chantier {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.container-etiquette {
+  display: flex;
+  max-width: 100%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.container-img {
+  margin: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.titre {
+  text-align: start !important;
+  font-size: xxx-large;
+}
+
+.background-img {
+  background-color: white;
+  padding: 6px;
+  border-radius: 14px;
+  height: 70px;
+}
+
+.categorie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
